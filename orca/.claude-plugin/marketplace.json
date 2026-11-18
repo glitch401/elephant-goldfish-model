@@ -1,0 +1,23 @@
+{
+  "name": "orca-pack",
+  "owner": {
+    "name": "glitch401"
+  },
+  "metadata": {
+    "description": "Build-phase companion to EGM: parallel worktree builders, planning, handoff and shipping skills."
+  },
+  "plugins": [
+    {
+      "name": "orca",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "description": "Parallel worktree builders with a CHECK merge gate, plus planning, handoff and shipping skills. Pairs with EGM design review.",
+      "author": {
+        "name": "glitch401"
+      },
+      "license": "Apache-2.0",
+      "category": "development"
+    }
+  ]
+}
