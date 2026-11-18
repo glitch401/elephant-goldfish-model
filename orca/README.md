@@ -21,7 +21,7 @@ build phase and the habits around it. Nothing here modifies EGM's own files.
 Install EGM as its own README describes. Then add this pack from a local clone:
 
 ```bash
-git clone https://github.com/glitch401/elephant-goldfish-model
+git clone -b pack https://github.com/glitch401/elephant-goldfish-model
 claude plugin marketplace add ./elephant-goldfish-model/orca
 claude plugin install orca@orca-pack
 ```
